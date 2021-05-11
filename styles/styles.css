@@ -1,3 +1,6 @@
+/*
+***default.css***
+*/
 h2, h3{
     margin: 0;
 }
@@ -6,11 +9,20 @@ label {
     display: flex;
 }
 
+
+/*
+***wraper.css***
+*/
 #wraper {
     padding: 2rem;
+    display: flex;
+    gap: 2rem;
 }
 
 
+/*
+***form.css***
+*/
 #form {
     display: flex;
     flex-direction: column;
@@ -20,4 +32,18 @@ label {
     border-width: 1px;
     border-style: solid;
     width: 200px;
+}
+
+    #form-controls {
+        display: flex;
+        gap: 0.5rem;
+    }
+
+
+/*
+***tasks-container.css***
+*/  
+#tasks-container {
+    background-color: lightgray;
+    width: -webkit-fill-available;
 }
