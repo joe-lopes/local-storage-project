@@ -9,7 +9,10 @@ label {
     display: flex;
 }
 
-
+fieldset{
+    border-style: solid;
+    margin: 0;
+}
 /*
 ***wraper.css***
 */
@@ -31,13 +34,22 @@ label {
     padding: 2rem;
     border-width: 1px;
     border-style: solid;
-    width: 200px;
 }
+
+    [id*="form--"]{
+        width: -webkit-fill-available;
+    }
 
     #form-controls {
         display: flex;
         gap: 0.5rem;
     }
+
+    #form--recurrent {
+        width: auto;
+    }
+
+    
 
 
 /*

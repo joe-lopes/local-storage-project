@@ -17,7 +17,7 @@
         
             <input id="form--name" type="text" name="name" value="Your name" >
 
-            <input id="form--length" type="text" name="length" value="00:00">
+            <input id="form--length" type="time" name="length" value="00:00">
 
             <select id="form--category" name="category">
                 <option value="work" selected>work</option>
@@ -29,15 +29,17 @@
 
             <label>Recurrent: <input id="form--recurrent" type="checkbox" name="recurrent"></label>
             
-            <fieldset>
+            <fieldset id="form--kind">
                 <legend><i>Kind</i></legend>
                 <label>work: 
-                    <input id="form--work" type="radio" name="kind">
+                    <input type="radio" name="kind">
                 </label>
                 <label>rest: 
-                    <input id="form--rest" type="radio" name="kind">
+                    <input type="radio" name="kind">
                 </label>
             </fieldset>
+
+            <input id="form--file" type="file" name="file">
         
             <div id="form-controls">
                 <button id="form--submit" type="submit" name="submit">submit</button>
@@ -51,5 +53,7 @@
 
     </div>
     
+    <script src="model/Task.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
