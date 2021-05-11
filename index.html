@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/styles.css" media="screen">
 </head>
 <body>
 
     <div id="wraper">
         
         <div id="form">
+
+            <h3>Add a Task </h3>
         
             <input id="form--name" type="text" name="name" value="Your name" >
 
@@ -24,17 +27,23 @@
                 <option value="read">read</option>
             </select>
 
-            <label>Recurrent:</label>
-            <input id="form--recurrent" type="checkbox" name="recurrent">
-
-            <label>Recurrent:</label>
-            <input id="form--work" type="radio" name="kind">
-            <input id="form--rest" type="radio" name="kind">
-
-            <button id="form--submit" type="submit" name="submit">submit</button>
-            <button id="form--edit" type="" name="edit">edit</button>
-            <button id="form--delete" type="delete">delete</button>
-
+            <label>Recurrent: <input id="form--recurrent" type="checkbox" name="recurrent"></label>
+            
+            <fieldset>
+                <legend><i>Kind</i></legend>
+                <label>work: 
+                    <input id="form--work" type="radio" name="kind">
+                </label>
+                <label>rest: 
+                    <input id="form--rest" type="radio" name="kind">
+                </label>
+            </fieldset>
+        
+            <div id="form-controls">
+                <button id="form--submit" type="submit" name="submit">submit</button>
+                <button id="form--edit" type="" name="edit">edit</button>
+                <button id="form--delete" type="delete">delete</button>
+            </div>
 
         </div>
 
