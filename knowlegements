@@ -1,0 +1,101 @@
+
+1.  addEventListener("submit", event => {});
+-   Aplicar evento submit a um formulário
+
+2.  preventDefault();
+-   Bloqueia um evento padrão, por exemplo, a atualização de página ao se enviar um formulário
+
+3.  buttonName.disabled = true;
+-   Bloqueia ou desbloqueia um botão
+
+4.  HTMLelement.dataset.name;
+-   Amarra um dado (como um JSON) a um elemento HTML, como se fosse um de seus atributos
+
+5.  tableName.rows[x];
+-   Seleciona uma das linhas de uma tableName
+
+6.  JSON.parse(jsonData);
+-   Transforma dados JSON em um objeto JS
+
+7.  Object.assign({}, oldObject, newObject);
+??? Substitui dados de objetos que estanciem a mesma classe, da esquerda para a direita
+
+8.  then()
+-   JS promisse
+
+9.  formName.reset();
+-   Limpa um formulário
+
+10. new Promise((resolve, reject) => {
+        resolve(...);
+        reject(someError);
+    });
+-   JS promisse
+
+11. [...someCollection]
+-   Transforma alguma coleção de dados em array, possibilitando o uso de métodos de array
+
+12. filter(var => { 
+        ...
+        return ...; 
+    });
+-   Filtra uma array, retornando apenas o valor desejado. O filtro pode ser definido por um if(){};
+
+13. elements[0]
+???  Os elementos relacionados a uma classe
+
+14. files[0]
+???  Os arquivos relacionados a um objeto
+
+15. new FileReader();
+-   API para a leitura de arquivos
+
+16. onload = () => {});
+-   Executa uma ação apenas quando uma outra é finalizada.
+
+19. onerror = (e) => {};
+-   Define o que acontece em caso de erro
+
+20. fileReader.readAsDataURL(file);
+-   Lê arquivos através da API FileReader()
+
+21. field.parentElement.classList.add("has-error")
+-   Adiciona uma classe a um elemento HTML
+
+22. field.name
+-   Pega o valor do atributo "name" de um elemento HTML
+
+23. datasetName[field.name]
+-    Pega uma informação de dentro do "dataset" 
+
+24. field.checked
+-    Mostra se um "checkbox" ou um "radio" de um formulário está checado
+
+25. conteinerName.appendChild(elementName);
+-   Adiciona um elemento dentro de um container ou outro elemento HTML
+
+26. JSON.stringify(dataUser)
+-   Transforma um objeto em JSON
+
+27. `${jsVariable}`
+-    Colocar variáveis JS dentro de HTML
+
+28. remove();
+-   Remove um elemento HTML da página
+
+29. HTMLelement.children
+-   Os elementos filhos de um certo elemento HTML
+
+30. localStorage.getItem("storageName")
+-   Pega informações salvas no navegador do usuário
+
+31. localStorage.setItem("storageName", content)
+-   Salva informações no navegador do usuário
+
+32. map(item =>{});
+-   Substitui itera e susbtitui informações dentro de uma array??
+
+33. splice(index, 1);
+-   Elimina um item dentro de uma array
+
+-/-
